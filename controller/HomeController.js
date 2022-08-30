@@ -1,16 +1,15 @@
-// FUNÇÕES DAS ROTAS DEFINITAS EM [ROUTERS]
+//FUNÇÕES DAS ROTAS
 
-// Class Controller
 class HomeController{
-    //Define o index do Controller
+    //Funções
     index(req, res){
         res.render("pages/index");
     }
 
-    login(req, res){
-        res.render("pages/login");
+    cadastrar(req, res){
+        res.render("pages/cadastro");
     }
 }
 
-// Exportar o HomeController
+//Exportar o HomeController
 module.exports = new HomeController();

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<%- include("../partials/head"); %>
+    <title>Home</title>
+
+    <body class="container">
+
+        <%- include("../partials/header"); %>
+
+            <div class="jumbotron">
+                <h1>Usuários</h1><br><br>
+                <div class="container">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Email</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mary</td>
+                                <td>mary@gmail.com</td>
+                                <td><button>Excluir</button></td>
+                            </tr>
+                            <tr>
+                                <td>Mateus</td>
+                                <td>mateus@gmail.com</td>
+                                <td><button>Excluir</button></td>
+                            </tr>
+                            <tr>
+                                <td>July</td>
+                                <td>july@gmail.com</td>
+                                <td><button>Excluir</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <footer>
+                <%- include('../partials/footer'); %>
+            </footer>
+    </body>
+</html>
