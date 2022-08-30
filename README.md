@@ -1,2 +1,7 @@
 # Projeto básico para aprendizagem de EJS
-Código para fins didáticos
+> Projeto para fins didáticos contendo:<br>
+- Login
+- Autenticação
+- Página principal
+- Página Cadastro
+- Página Usuários
